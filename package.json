@@ -1,0 +1,24 @@
+{
+  "name": "kozan",
+  "version": "1.0.0",
+  "description": "Financial Tracker App",
+  "main": "index.js",
+  "scripts": {
+    "start": "sirv ./src public --cors --single --no-clear --port 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShivangM/kozan.git"
+  },
+  "keywords": [
+    "github-copilot-hackathon",
+    "azure",
+    "financial-tracker"
+  ],
+  "author": "Shivang Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShivangM/kozan/issues"
+  },
+  "homepage": "https://github.com/ShivangM/kozan#readme"
+}

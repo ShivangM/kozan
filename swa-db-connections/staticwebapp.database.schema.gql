@@ -1,0 +1,15 @@
+type Transaction {
+  name: String
+  description: String
+  amount: String
+  type: String
+  date: DateTime
+}
+
+type User @model {
+  id: ID
+  name: String
+  email: String
+  balance: String
+  transactions: [Transaction]
+}
